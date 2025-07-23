@@ -1,0 +1,44 @@
+# AgriMind Edge - Requirements
+# Ultra-lightweight dependencies for resource-constrained computing
+
+# Core scientific computing (minimal versions for embedded systems)
+numpy>=1.21.0,<1.25.0  # Optimized for ARM processors
+
+# Data handling and serialization
+dataclasses-json>=0.5.7  # Lightweight data serialization
+
+# Logging and utilities (built-in Python modules preferred)
+# datetime - built-in
+# json - built-in
+# time - built-in
+# logging - built-in
+# hashlib - built-in
+# enum - built-in
+
+# Optional dependencies for full implementation
+# (commented out for minimal demo environment)
+
+# Hardware interface libraries (for actual deployment)
+# RPi.GPIO>=0.7.1  # Raspberry Pi GPIO control
+# adafruit-circuitpython-dht>=3.7.0  # DHT22 temperature/humidity sensor
+# adafruit-circuitpython-bh1750>=1.1.0  # Light sensor
+# adafruit-circuitpython-ads1x15>=2.2.0  # ADC for analog sensors
+
+# LoRa/Radio communication (for mesh networking)
+# pyLoRa>=0.4.0  # LoRa radio communication
+# RFM9x>=1.0.0  # Alternative LoRa library
+
+# Machine Learning (TensorFlow Lite Micro for embedded)
+# tflite-runtime>=2.8.0  # TensorFlow Lite runtime
+# tensorflow>=2.8.0,<2.13.0  # For model training/conversion
+
+# Computer Vision (OpenCV minimal build)
+# opencv-python-headless>=4.5.0,<4.8.0  # Headless OpenCV for image processing
+
+# Development and testing
+pytest>=7.0.0  # Testing framework
+pytest-cov>=4.0.0  # Coverage reporting
+
+# Documentation
+# sphinx>=4.0.0  # Documentation generation
+# sphinx-rtd-theme>=1.0.0  # ReadTheDocs theme
